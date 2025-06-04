@@ -19,10 +19,10 @@
 # ==============================================================
 
 # ===> Path to the combined genome FASTA file <===
-genome_fasta="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/3_reference_genomes/genome_seq_SK1_and_Smik.fa"
+genome_fasta="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_reference_genomes/genome_seq_SK1_and_Smik.fa"
 
 # ===> Output directory where Bowtie2 index will be stored <===
-output_index="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/3_reference_genomes/combined_genome_index"
+output_index="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_reference_genomes/combined_genome_index"
 
 # ===> Create the output directory if it doesn’t already exist <===
 mkdir -p "${output_index}"

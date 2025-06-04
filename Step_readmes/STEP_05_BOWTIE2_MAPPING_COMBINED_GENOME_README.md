@@ -1,4 +1,4 @@
-# Step 4: Bowtie2 Mapping to Combined SK1 + Smik Genome
+# Step 5: Bowtie2 Mapping to Combined SK1 + Smik Genome
 
 This is Step 4 of the **Calibrated ChIP-seq Analysis Pipeline**. It maps trimmed paired-end FASTQ files to a combined reference genome (SK1 + Smik) using Bowtie2 and processes the results with samtools.
 
@@ -20,11 +20,11 @@ Make sure your project is structured like this:
 
 ```
 Calibrated_ChIP_Seq/
-├── 2_trimmed_output_q20/                  # Trimmed FASTQ files (*.fastq.gz)
-├── 3_reference_genomes/
+├── 3_trimmed_output_q20/                  # Trimmed FASTQ files (*.fastq.gz)
+├── 4_reference_genomes/
 │   ├── genome_seq_SK1_and_Smik.fa         # Combined genome fasta
 │   └── combined_genome_index/             # Bowtie2 index files
-└── 4_Combain_genome_mapping_output/       # Output BAM files will be saved here
+└── 5_Combain_genome_mapping_output/       # Output BAM files will be saved here
 ```
 
 ---
@@ -74,13 +74,13 @@ module load samtools
 sample_name=("IN817" "IN855" "IN819" "IN820" "IP817" "IP855" "IP819" "IP820")
 
 # ===> UPDATE THIS: Path to reference genome index built from genome_seq_SK1_and_Smik.fa <===
-index_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/3_reference_genomes/combined_genome_index/genome_seq_SK1_and_Smik"
+index_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_reference_genomes/combined_genome_index/genome_seq_SK1_and_Smik"
 
 # ===> UPDATE THIS: Path to trimmed FASTQ files <===
 fastq_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/2_trimmed_output_q20"
 
 # ===> UPDATE THIS: Path to output directory <===
-output_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_Combain_genome_mapping_output"
+output_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/5_Combain_genome_mapping_output"
 mkdir -p "${output_path}"  # Create output directory if it doesn’t exist
 
 # ---------------------------------------------------------

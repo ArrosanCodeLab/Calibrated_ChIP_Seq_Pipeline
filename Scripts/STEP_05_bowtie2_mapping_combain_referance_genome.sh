@@ -22,13 +22,13 @@ module load samtools
 sample_name=("IN817" "IN855" "IN819" "IN820" "IP817" "IP855" "IP819" "IP820")
 
 # ===> UPDATE THIS: Path to reference genome index built from genome_seq_SK1_and_Smik.fa <===
-index_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/3_reference_genomes/combined_genome_index/genome_seq_SK1_and_Smik"
+index_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_reference_genomes/combined_genome_index/genome_seq_SK1_and_Smik"
 
 # ===> UPDATE THIS: Path to trimmed FASTQ files <===
 fastq_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/2_trimmed_output_q20"
 
 # ===> UPDATE THIS: Path to output directory <===
-output_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/4_Combain_genome_mapping_output"
+output_path="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/5_Combain_genome_mapping_output"
 mkdir -p "${output_path}"  # Create output directory if it doesn’t exist
 
 # ---------------------------------------------------------
