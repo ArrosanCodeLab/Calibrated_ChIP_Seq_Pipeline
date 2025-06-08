@@ -1,0 +1,70 @@
+🔽 Downloading sacCer2 chromosomes and md5sum.txt...
+receiving incremental file list
+./
+2micron.fa.gz
+              0   0%    0.00kB/s    0:00:00            2,172 100%    2.07MB/s    0:00:00 (xfr#1, to-chk=19/21)
+README.txt
+              0   0%    0.00kB/s    0:00:00            1,869 100%    1.78MB/s    0:00:00 (xfr#2, to-chk=18/21)
+chrI.fa.gz
+              0   0%    0.00kB/s    0:00:00           72,176 100%  223.76kB/s    0:00:00 (xfr#3, to-chk=17/21)
+chrII.fa.gz
+              0   0%    0.00kB/s    0:00:00          256,380 100%  396.16kB/s    0:00:00 (xfr#4, to-chk=16/21)
+chrIII.fa.gz
+              0   0%    0.00kB/s    0:00:00           99,918 100%  144.34kB/s    0:00:00 (xfr#5, to-chk=15/21)
+chrIV.fa.gz
+              0   0%    0.00kB/s    0:00:00          163,840  34%  144.93kB/s    0:00:02          481,028 100%  229.15kB/s    0:00:02 (xfr#6, to-chk=14/21)
+chrIX.fa.gz
+              0   0%    0.00kB/s    0:00:00           32,768  23%   29.04kB/s    0:00:03          138,691 100%  107.41kB/s    0:00:01 (xfr#7, to-chk=13/21)
+chrM.fa.gz
+              0   0%    0.00kB/s    0:00:00           22,765 100%  138.08kB/s    0:00:00 (xfr#8, to-chk=12/21)
+chrV.fa.gz
+              0   0%    0.00kB/s    0:00:00          182,191 100%  281.97kB/s    0:00:00 (xfr#9, to-chk=11/21)
+chrVI.fa.gz
+              0   0%    0.00kB/s    0:00:00           85,453 100%  100.91kB/s    0:00:00 (xfr#10, to-chk=10/21)
+chrVII.fa.gz
+              0   0%    0.00kB/s    0:00:00           65,536  19%   58.02kB/s    0:00:04          343,790 100%  207.88kB/s    0:00:01 (xfr#11, to-chk=9/21)
+chrVIII.fa.gz
+              0   0%    0.00kB/s    0:00:00          176,995 100%  182.52kB/s    0:00:00 (xfr#12, to-chk=8/21)
+chrX.fa.gz
+              0   0%    0.00kB/s    0:00:00           16,378   6%   14.49kB/s    0:00:15          234,767 100%  157.35kB/s    0:00:01 (xfr#13, to-chk=7/21)
+chrXI.fa.gz
+              0   0%    0.00kB/s    0:00:00          210,201 100%  249.12kB/s    0:00:00 (xfr#14, to-chk=6/21)
+chrXII.fa.gz
+              0   0%    0.00kB/s    0:00:00           81,914  24%   72.59kB/s    0:00:03          335,614 100%  208.09kB/s    0:00:01 (xfr#15, to-chk=5/21)
+chrXIII.fa.gz
+              0   0%    0.00kB/s    0:00:00          278,518  95%  246.59kB/s    0:00:00          290,985 100%  257.63kB/s    0:00:01 (xfr#16, to-chk=4/21)
+chrXIV.fa.gz
+              0   0%    0.00kB/s    0:00:00          247,502 100%  511.00kB/s    0:00:00 (xfr#17, to-chk=3/21)
+chrXV.fa.gz
+              0   0%    0.00kB/s    0:00:00          327,680  95%  290.38kB/s    0:00:00          344,372 100%  304.90kB/s    0:00:01 (xfr#18, to-chk=2/21)
+chrXVI.fa.gz
+              0   0%    0.00kB/s    0:00:00          299,096 100%  618.83kB/s    0:00:00 (xfr#19, to-chk=1/21)
+md5sum.txt
+              0   0%    0.00kB/s    0:00:00              835 100%    1.72kB/s    0:00:00 (xfr#20, to-chk=0/21)
+
+sent 411 bytes  received 3,829,600 bytes  333,044.43 bytes/sec
+total size is 3,826,800  speedup is 1.00
+🔒 Verifying checksums...
+✅ All files passed MD5 check.
+📂 Unzipping FASTA files...
+🗑️ Removing 2micron.fa...
+🗑️ Removing chrM.fa...
+🛠️ Combining chromosomes into sacCer2_combined.fasta in correct order...
+📋 Final check: Chromosomes in combined file:
+>chrI
+>chrII
+>chrIII
+>chrIV
+>chrV
+>chrVI
+>chrVII
+>chrVIII
+>chrIX
+>chrX
+>chrXI
+>chrXII
+>chrXIII
+>chrXIV
+>chrXV
+>chrXVI
+🎯 sacCer2 reference genome preparation completed successfully!
