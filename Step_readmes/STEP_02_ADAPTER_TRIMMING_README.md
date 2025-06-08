@@ -134,4 +134,4 @@ University of Aberdeen, UK
 📧 hajime.murakami1@abdn.ac.uk
 
 ## 🔁 Next Step
-➡️ Proceed to: **Step 3 – Read Mapping**
+➡️ Proceed to: **Step 3 – Fastqc**

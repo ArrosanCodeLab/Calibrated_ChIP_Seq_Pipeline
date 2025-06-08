@@ -67,10 +67,10 @@ This step calculates genome-wide coverage from BAM files that contain reads mapp
 module load samtools
 
 # Input: BAM files mapped only to SK1
-bam_dir="/uoa/home/r02ar23/sharedscratch/250502_Rec8_CTD_Red1_helix_Rec8-6myc_ChIP_Sq/6_250503_mapped_SK1_reads"
+bam_dir="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/6_mapped_SK1_reads"
 
 # Output directory for coverage data
-coverage_dir="/uoa/home/r02ar23/sharedscratch/250429_Rec8_Chimeric_Construct_V5-Red1_ChIP-Sq/7_250503_mapped_SK1_reads_coverage"
+coverage_dir="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/7_mapped_SK1_reads_coverage"
 
 # Summary file to collect per-sample stats
 summary_csv="${coverage_dir}/coverage_summary.csv"
@@ -82,7 +82,7 @@ mkdir -p "$coverage_dir"
 echo "Sample,Total Positions,Covered Positions,Uncovered Positions,Mean Depth,Median Depth" > "$summary_csv"
 
 # Sample list (adjust as needed)
-samples=("INA" "IND" "INE" "INH" "INI" "INK" "INM" "IPA" "IPD" "IPE" "IPH" "IPI" "IPK" "IPM")
+samples=("IN817" "IN855" "IN819" "IN820" "IP817" "IP855" "IP819" "IP820")
 
 # Loop over each sample
 for sample in "${samples[@]}"; do

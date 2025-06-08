@@ -97,13 +97,24 @@ Below is the exact script. **Do not modify any lines**—instead, update only th
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=a.rajalingam.23@abdn.ac.uk
 
+# ======================= IMPORTANT =======================
+# Update only the two lines marked “==> UPDATE THIS <==”.
+# =========================================================
+
 # Define the directory for raw data downloads
+# ===> we want to create 1_Raw_Sequence_Data under the main folder <===
 raw_data_dir="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/1_Raw_Sequence_Data"
 
-# Define the path to the metadata file
-md5sum_file="${raw_data_dir}/EN****_22samples_md5sum_DownloadLink.txt"
+# Define the path to the metadata file (MD5 + URLs)
+# ===> metadata is located one level up, in the main Calibrated_ChIP_Seq folder <===
+md5sum_file="/uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/EN****_22samples_md5sum_DownloadLink.txt"
 
-# Ensure the raw data directory exists
+# ---------------------------------------------------------
+# Do NOT modify anything below unless you know what you’re doing.
+# ---------------------------------------------------------
+
+# Ensure the raw data directory exists (will create 
+# /uoa/home/r02ar23/sharedscratch/Calibrated_ChIP_Seq/1_Raw_Sequence_Data)
 mkdir -p "$raw_data_dir"
 
 # Change to the raw data directory
